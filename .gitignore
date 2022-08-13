@@ -1,0 +1,6 @@
+#PyCharm
+.idea
+
+#__pycache__
+script/__pycache__/
+script/gui/__pycache__/

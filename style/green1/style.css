@@ -1,0 +1,91 @@
+window {
+    background-image: -gtk-gradient (linear, left top, left bottom, from (rgb(63, 106, 64)), color-stop (0.5, lighter (rgb(63, 106, 64))),to (rgb(63, 106, 64)));
+}
+
+* {
+    font-family: helvetica;
+}
+
+button {
+    background: rgb(245, 243, 242);
+    border-radius: 4px;
+    border: 2px solid  white;
+    border-color: darker(darker(rgb(63, 106, 64)));
+    font-family: helvetica;
+    font-size: 18px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.numpad_button {
+    padding: 21px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: rgb(245, 243, 242);
+}
+
+.numpad_label {
+    color: rgb(245, 243, 242);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.quantity_selector_button {
+    padding: 35px;
+    margin: 10px;
+}
+
+.quantity_selector_label {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(245, 243, 242);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+.shutdown_button {
+    margin: 10px;
+    padding: 15px;
+}
+
+.print_button {
+    margin: 30px 30px 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.print_button:disabled {
+    border-color: #7B7A79;
+}
+
+.connection_failure_image {
+    margin-top: 25px;
+    margin-left: 650px;
+}
+
+.error_label {
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+    border: 3px solid orangered;
+    margin-bottom: 5px;
+    color: rgb(245, 243, 242);
+    border-radius: 3px;
+}
+
+.right_box {
+    margin-top: 14px;
+}
+
+.numpad {
+    margin-top: 14px;
+}
+
+
+
+
