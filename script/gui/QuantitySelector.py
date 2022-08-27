@@ -41,3 +41,6 @@ class QuantitySelector(Gtk.Grid):
 
     def get_value(self):
         return self.value
+    def clear_value(self):
+        self.value = 1
+        self.refresh_output()

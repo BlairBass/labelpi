@@ -123,6 +123,8 @@ class MainWindow(Gtk.Window):
             generate_barcode(value=self.numpad.get_value(nulled=True), callback=self.print_ready, configuration=configuration, qty=self.quantitySelector.get_value(), printer=self.printer)
             # Reset print and numpad
             self.numpad.clear_value()
+            # Reset quantitySelector
+            self.quantitySelector.clear_value()
         else:
             # If number not found in database show error label and hide after 3 seconds
             self.errorLabel.set_visible(True)
